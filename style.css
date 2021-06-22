@@ -1,0 +1,143 @@
+
+ /* We are using the 'Roboto' font from Google. This has already been added to your HTML header */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+body {
+    margin: 30px;
+    height: 100%;
+    min-height: 100%;
+  } 
+ 
+header img{
+    margin: auto 60px;
+    float: left;
+    
+}
+
+header ul{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 30px;
+    margin-right: 70px;
+    
+    }
+header a{
+    text-decoration: none;
+    color: black;   
+}
+header a:hover{
+    color: tomato;
+}
+button{
+     border-radius: 3px;
+     cursor: pointer;
+     padding: 10px 20px;
+     box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+     background-color:tomato ;
+     border: transparent ;
+     color: #fff;
+      }
+
+
+.karma {
+ background-image:url("https://i.ibb.co/HG51cBL/00-03-41-first-background.jpg");
+ background-color: white;
+ background-repeat: no-repeat;
+ background-size:cover;
+ height: 700px;
+background-position: ;
+top: 100px;
+left: 100px;
+}
+.karmacontainer {
+    text-align: center;
+    margin: 2px; 
+    color: #fff;
+      
+} 
+h1{
+    font-size:2.5em ;
+    font-weight: lighter;
+    padding-top: 250px;
+}
+h2{
+    font-size: 2em;
+    font-weight: lighter;
+}
+.butooncenter{
+    display: flex;
+    justify-content: center; 
+}
+
+.littekarma h3{
+    text-align: center;
+    font-size: 3em;
+    font-weight:lighter;
+}
+.imgcontainer ul{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-evenly;
+ list-style: none;
+} 
+
+footer ul,h4,h5{
+    text-align: center;
+}
+
+footer h5{
+    color: gainsboro;
+    font-weight: lighter;
+}
+.social-icons a{
+    display:inline-block;
+    background-color:#fff;
+    margin-right:20px;
+    font-size: 20px;
+    line-height:30px;
+    width: 50px;
+    height: 20px;
+    border-radius:50%;
+    border: 2px solid whitesmoke;
+    
+}
+    
+.social-icons a.facebook{
+      color:#1877f2 ;
+  }
+.social-icons a.twitter{
+    color: #1DA1F2;
+}
+
+
+@media(max-width:700px) {
+header ul,a {
+    display: flex;
+    font-size: 5px;
+}
+header img{
+margin: auto 2px;
+}
+.karmacontainer h1{
+    font-size: 1.5em;
+
+}
+h2{
+    font-size:1em ;
+}
+.littekarma h3{
+    font-size: 1em ;
+}
+.imgcontainer ul, li{
+    flex-direction: column;
+    text-align: center;
+}
+}
+
